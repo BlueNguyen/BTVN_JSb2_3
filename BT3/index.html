@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <p>Viết chương trình quy đổi tiền từ USD sang VND</p>
+    <input type="number" name="nameInput" id="idInput" placeholder="Nhập số tiền"/>
+    <select name="nameFrom" id="idFrom">
+      <option value="Select">From</option>
+      <option value="USD">USD</option>
+      <option value="VND">VND</option>
+    </select>
+
+    <select name="nameTo" id="idTo">
+      <option value="Select">To</option>
+      <option value="USD">USD</option>
+      <option value="VND">VND</option>
+    </select>
+
+    <div class="btn">
+      <button type="button" onclick="getResult()">Tính</button>
+      <button type="button" onclick="location. reload()">Reset</button>
+    </div>
+
+    <div class="result">
+      <i class="fa fa-hand-point-right"></i>
+      <span id="result"></span>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
