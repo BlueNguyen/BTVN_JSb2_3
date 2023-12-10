@@ -16,7 +16,7 @@ function getResult() {
       "Số tiền quy đổi là: " + (num * USD).toLocaleString("en-US") + " VNĐ";
   } else {
     document.getElementById("result").innerHTML =
-      "Số tiền quy đổi là: " + (num / USD).toLocaleString("vi-VN") + " USD";
+      "Số tiền quy đổi là: " + (num / USD).toLocaleString("en-US") + " USD";
   }
 }
 //     if(from=="USD" && to=="USD"){
