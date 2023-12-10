@@ -1,3 +1,10 @@
+// MÔ HÌNH 3 KHỐI
+// Input: 5 số thực nhập vào
+// Giải: B1: tạo biến num1, num2, num3, num4, num5 lần lượt là giá trị 5 số thực nhập vào  & biến aver lưu giá trị Trung bình của 5 số
+//       B2: gán giá trị cho num1, num2, num3, num4, num5
+//       B3: tính aver= (num1+ num2+ num3+ num4+ num5)/5;
+//       B4: in giá trị aver ra màn hình
+// Output: giá trị Trung bình aver của 5 số thực 
 function tinhTrungBinh() {
   let num1 = +document.getElementById("num1").value;
   let num2 = +document.getElementById("num2").value;
